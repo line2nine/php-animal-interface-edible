@@ -11,12 +11,12 @@ $animals[1] = new Chicken();
 
 foreach ($animals as $animal) {
     echo $animal->makeSound() . '<br><br>';
-    if ($animal instanceof Chicken){
+    if ($animal instanceof Chicken) {
         echo $animal->howToEat();
     }
 }
 
-echo ('<br><br>---- Fruits ----<br><br>');
+echo('<br><br>---- Fruits ----<br><br>');
 
 $fruits[0] = new Apple();
 $fruits[1] = new Orange();

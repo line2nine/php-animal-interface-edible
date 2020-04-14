@@ -1,5 +1,5 @@
 <?php
-include_once(dirname(__FILE__) . "/../AbstractClass/Fruit.php");
+include_once "AbstractClass/Fruit.php";
 
 class Orange extends Fruit
 {
